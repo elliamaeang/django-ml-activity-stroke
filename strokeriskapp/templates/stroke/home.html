@@ -24,7 +24,7 @@
         <section class="classification">
             <div id="input-section">
                 <form action="{% url 'predict' %}" method="post">
-                    <h3>Predict stroke risk</h3>
+                    <h3>Predict Stroke Risk</h3>
                     {% csrf_token %}
 
                     {% for field in form %}
